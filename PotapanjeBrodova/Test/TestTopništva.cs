@@ -40,7 +40,7 @@ namespace Test
         }
 
         [TestMethod]
-        public void Topništvo_NakonPrvogPogotkaTaktikaPrelaziUKružnu()
+        public void Topništvo_NakonPrvogPogodkaTaktikaPrelaziUKružnu()
         {
             int redaka = 5;
             int stupaca = 5;
@@ -63,7 +63,7 @@ namespace Test
         }
 
         [TestMethod]
-        public void Topništvo_KružnoGađanjeNakonPogotkaPrelaziULinijsko()
+        public void Topništvo_KružnoGađanjeNakonPogodkaPrelaziULinijsko()
         {
             int redaka = 5;
             int stupaca = 5;
@@ -75,7 +75,7 @@ namespace Test
         }
 
         [TestMethod]
-        public void Topništvo_KružnoGađanjeNakonPotonućaPrelaziUNasumično()
+        public void Topništvo_KružnoGađanjeNakonPotonučaPrelaziUNasumično()
         {
             int redaka = 5;
             int stupaca = 5;
@@ -112,5 +112,6 @@ namespace Test
             t.ObradiGađanje(RezultatGađanja.Potopljen);
             Assert.AreEqual(TaktikaGađanja.Nasumično, t.TaktikaGađanja);
         }
+
     }
 }
